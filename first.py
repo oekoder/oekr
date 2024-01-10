@@ -1,3 +1,6 @@
-name=input('what\'s your name ?').strip().title()
-age=int(input('what\'s your age?' ))
-print(f'Hello {name}, {age}')
+def main():
+  name=input('what\'s your name?').title()
+  say_hello(name)
+def say_hello(to):
+  print('Hello', to)
+main()
